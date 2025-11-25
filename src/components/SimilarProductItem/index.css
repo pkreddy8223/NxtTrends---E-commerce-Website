@@ -1,1 +1,63 @@
+/* Write your CSS here */
+.similar-item-item {
+  margin-bottom: 14px;
+}
 
+.similar-item-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.similar-item-content-container {
+}
+
+.similar-item-name {
+  color: #475569;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.similar-item-brand {
+  color: #616e7c;
+}
+
+.similar-item-rating-and-price-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.similar-item-price {
+  color: #12022f;
+  font-weight: bolder;
+  font-size: 14px;
+}
+
+.similar-item-review-container {
+  background-color: #3b82f6;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 4px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.similar-item-review {
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  margin-right: 4px;
+}
+
+.similar-item-review-image {
+  width: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-item-item {
+    margin-right: 14px;
+  }
+}
